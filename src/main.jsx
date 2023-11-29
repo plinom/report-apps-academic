@@ -17,16 +17,16 @@ export const Layout = () => {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path={"https://apps-report.netlify.app/"} element={<Main />} />
-                <Route path={"https://apps-report.netlify.app/entering-resolution"} element={<EnteringResolution />} />
-                <Route path={"https://apps-report.netlify.app/achievements-faculty"}  element={<FacultyAchievements />} />
-                <Route path={"https://apps-report.netlify.app/graduates"} element={<Graduates />} />
-                <Route path={"https://apps-report.netlify.app/new-faces"} element={<NewFaces />} />
-                <Route path={"https://apps-report.netlify.app/science"} element={<Science />} />
-                <Route path={"https://apps-report.netlify.app/small-stories"} element={<SmallStoriesOfBigWar />} />
-                <Route path={"https://apps-report.netlify.app/strategic-goals"} element={<StrategicGoals />} />
-                <Route path={"https://apps-report.netlify.app/volunteer"} element={<VolunteerProjects />} />
-                <Route path={"https://apps-report.netlify.app/who-we-are"} element={<WhoAreWe />} />
+                <Route path={"/"} element={<Main />} />
+                <Route path={"/entering-resolution"} element={<EnteringResolution />} />
+                <Route path={"/achievements-faculty"}  element={<FacultyAchievements />} />
+                <Route path={"/graduates"} element={<Graduates />} />
+                <Route path={"/new-faces"} element={<NewFaces />} />
+                <Route path={"/science"} element={<Science />} />
+                <Route path={"/small-stories"} element={<SmallStoriesOfBigWar />} />
+                <Route path={"/strategic-goals"} element={<StrategicGoals />} />
+                <Route path={"/volunteer"} element={<VolunteerProjects />} />
+                <Route path={"/who-we-are"} element={<WhoAreWe />} />
                 <Route path={"*"} element={<FourZeroFour />} />
             </Routes>
         </BrowserRouter>
