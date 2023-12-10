@@ -1,4 +1,3 @@
-import Container from "../Container";
 import contentLinks from "./links"
 import styles from "./MenuBar.module.css";
 import {Link} from "react-router-dom";
