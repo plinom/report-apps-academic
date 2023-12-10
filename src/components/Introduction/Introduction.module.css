@@ -1,0 +1,192 @@
+.introduction {
+  width: 100%;
+  background: none;
+  height: fit-content;
+}
+
+.headingWrapper {
+  font-family: 'e-Ukraine Head', serif;
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-size: 20px;
+  line-height: 72px;
+  text-transform: capitalize;
+  color: var(--text);
+  padding: 14px 14px 14px 20px;
+}
+
+.gradient {
+  position: absolute;
+  left: 0;
+  top: 1300px;
+  height: 90vh;
+  overflow: hidden;
+}
+
+.headingLine {
+  position: relative;
+  width: 20%;
+  height: 1.5px;
+  background-color: var(--text);
+}
+
+.textWrapper {
+  display: flex;
+  width: 100%;
+  max-width: 1000px;
+  gap: 55px;
+  z-index: 1;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+}
+
+.deansText {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: none;
+}
+
+.introductionText {
+  text-align: left;
+  font-weight: normal;
+  white-space: pre-line;
+  font-size: 18px;
+  margin: 0;
+}
+
+.introductionText h3 {
+  margin-bottom: 10px;
+}
+
+.wrapper {
+  text-align: right;
+}
+
+.imgWrapper {
+  border-radius: 25px;
+  overflow: auto;
+}
+
+.imgWrapper img {
+  height: 300px;
+  width: auto;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+
+.nameWrapper {
+  white-space: pre-line;
+  font-size: 18px;
+  font-weight: normal;
+  padding-top: 40px;
+  text-align: end;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .headingWrapper {
+    font-size: 20px;
+    padding-left: 40px;
+  }
+
+  .wrapper {
+    max-width: 350px;
+  }
+}
+
+@media (min-width: 768px) {
+  .introduction {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .headingWrapper {
+    width: 55%;
+    padding: 20px 20px 20px 90px;
+    font-size: 22px;
+  }
+
+  .textWrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .introductionText {
+    font-size: 16px;
+  }
+
+  .wrapper {
+    text-align: right;
+  }
+
+  .gradient {
+    top: 1000px;
+  }
+
+  .name {
+    font-size: 18px;
+  }
+
+  .nameWrapper {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .introduction {
+    padding-top: 130px;
+  }
+
+  .headingWrapper {
+    padding: 25px 25px 25px 120px;
+    font-size: 24px;
+  }
+
+  .textWrapper {
+    flex-direction: row;
+  }
+
+  .introductionText {
+    font-size: 18px;
+  }
+
+  .wrapper {
+    background-repeat: no-repeat;
+    background-position: right 0 bottom 0;
+  }
+}
+
+@media (min-width: 1400px) {
+  .introduction {
+    padding-top: 170px;
+  }
+
+  .headingWrapper {
+    width: 55%;
+    padding: 35px 35px 35px 240px;
+    font-size: 26px;
+  }
+
+  .textWrapper {
+    flex-direction: row;
+    margin-top: 30px;
+  }
+
+  .introductionText {
+    font-size: 18px;
+  }
+
+  .imgWrapper {
+    height: fit-content;
+  }
+}

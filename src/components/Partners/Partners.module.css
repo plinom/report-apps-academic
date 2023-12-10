@@ -1,0 +1,148 @@
+.partners {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100%;
+  height: fit-content;
+}
+
+.headingWrapper {
+  font-family: 'e-Ukraine Head', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  display: flex;
+  color: var(--text);
+  align-items: center;
+  gap: 30px;
+  line-height: 72px;
+  text-transform: capitalize;
+  padding: 14px 14px 14px 20px;
+}
+
+.partnersLine {
+  position: relative;
+  width: 30%;
+  height: 1.5px;
+  background-color: var(--text);
+}
+
+.text {
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 40px;
+  z-index: 1;
+}
+
+.partnersHeading {
+  align-self: flex-start;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.partnersWrapper {
+  display: flex;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.sponsoredPartner {
+  margin: 10px 0;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.imgWrapper:first-of-type {
+  margin-right: 30px;
+}
+
+.partners img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 767px) {
+  .partnersLine {
+    width: 15%;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .headingWrapper {
+    font-size: 20px;
+    padding-left: 40px;
+  }
+
+  .text {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .partnersHeading {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 768px) {
+  .partners {
+    padding-top: 90px;
+    padding-bottom: 100px;
+  }
+
+  .headingWrapper {
+    width: 55%;
+    padding: 20px 20px 20px 90px;
+    font-size: 22px;
+  }
+
+  .text {
+    font-size: 16px;
+    margin-bottom: 60px;
+  }
+
+  .partnersHeading {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .strategyPartners {
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .partners {
+    padding-top: 130px;
+    padding-bottom: 200px;
+  }
+
+  .headingWrapper {
+    width: 55%;
+    padding: 25px 25px 25px 120px;
+    font-size: 24px;
+  }
+
+  .text {
+    font-size: 18px;
+    margin-bottom: 70px;
+  }
+
+  .partnersHeading {
+    font-size: 26px;
+    margin-bottom: 45px;
+  }
+
+  .partnersWrapper {
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .headingWrapper {
+    width: 55%;
+    padding: 35px 35px 35px 240px;
+    font-size: 26px;
+  }
+}

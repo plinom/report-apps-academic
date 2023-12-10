@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+:root {
+  --background: #030303;
+  --text: #f5f5f5;
+  --menu: #532870;
+  --green: #8bc751;
+}
+
+@font-face {
+  font-family: 'e-Ukraine Head';
+  font-weight: 700;
+  src: local('e-Ukraine Head'), url(./fonts/e-UkraineHead-Bold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'e-Ukraine Head';
+  font-weight: 300;
+  src: local('e-Ukraine Head'), url(./fonts/e-UkraineHead-Thin.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'e-Ukraine Head';
+  font-weight: 400;
+  src: local('e-Ukraine Head'), url(./fonts/e-UkraineHead-Regular.otf) format('opentype');
+}
+
+.App {
+  text-align: left;
+  font-family: 'Roboto', serif;
+  font-weight: 600;
+  background-color: var(--background);
+  color: var(--text);
+}
+.offcanvas {
+  --bs-offcanvas-width: 100vw !important;
+}
+.offcanvas-size-xl {
+  --bs-offcanvas-width: min(95vw, 600px) !important;
+}
+.offcanvas-size-xxl {
+  --bs-offcanvas-width: min(95vw, 90vw) !important;
+}
+.offcanvas-size-md {
+  /* add Responsivenes to default offcanvas */
+  --bs-offcanvas-width: min(95vw, 400px) !important;
+}
+.offcanvas-size-sm {
+  --bs-offcanvas-width: min(95vw, 250px) !important;
+}
+
+.offcanvas-body,
+.offcanvas-header {
+  background-color: var(--menu) !important;
+  padding-left: 90px !important;
+  padding-right: 90px !important;
+}
+
+.offcanvas-header {
+  justify-content: space-between !important;
+}
+
+.offcanvas-body {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-around !important;
+}
+
+[data-rmiz-modal-content] {
+  background: var(--background);
+}
+
+@media (max-width: 768px) {
+  .offcanvas-body,
+  .offcanvas-header {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
+}

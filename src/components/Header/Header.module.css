@@ -1,0 +1,214 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  padding-top: 35px;
+  padding-left: 20px;
+  padding-bottom: 35px;
+}
+
+.textContent {
+  justify-content: center;
+  z-index: 1;
+}
+
+.line {
+  position: relative;
+  height: 2px;
+  background-color: var(--text);
+}
+
+.title {
+  font-family: 'e-Ukraine Head', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: calc(2.3rem + 0.6vw);
+  line-height: 148.4%;
+  color: var(--text);
+  white-space: pre-line;
+  margin-bottom: 50px;
+  padding-right: 30px;
+}
+
+.headerLabel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 20px 10px 10px;
+  margin-bottom: 150px;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  background-color: rgba(102, 45, 145, 0.9);
+  color: var(--text);
+  font-family: 'CirceRounded', serif;
+  font-weight: 900;
+  font-size: 13px;
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  z-index: 3;
+}
+
+.missionLine {
+  position: relative;
+  width: 10%;
+  height: 1.5px;
+  background-color: var(--text);
+}
+
+.missionLine:after {
+  position: absolute;
+  bottom: -2px;
+  left: 2px;
+  height: 5px;
+  width: 5px;
+  background: var(--text);
+  content: '';
+  border-radius: 5px;
+}
+
+.missionLine:after {
+  right: -1px;
+  left: auto;
+}
+
+.missionWrapper {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.missionHeading {
+  font-family: 'e-Ukraine Head', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 72px;
+  text-transform: capitalize;
+  color: var(--text);
+  z-index: 3;
+}
+
+.subtitle {
+  max-width: 700px;
+  z-index: 3;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  padding-right: 30px;
+}
+
+.gradient {
+  position: absolute;
+  right: -200px;
+}
+
+.shape1 {
+  display: flex;
+  align-items: center;
+  filter: blur(53px);
+  opacity: 90%;
+  background: linear-gradient(0deg, #7dff00 0%, #9100ff 100%);
+  animation: morph 9s ease-in-out infinite;
+  border-radius: 30% 40% 30% 70% / 30% 30% 100% 40%;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 0 20px #000;
+}
+
+@media (max-width: 767px) {
+  .line {
+    display: none;
+  }
+
+  .missionLine {
+    width: 15%;
+  }
+
+  .textContent {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .header {
+    padding-left: 40px;
+  }
+
+  .title {
+    font-size: 3em;
+  }
+
+  .headerLabel {
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  .logo {
+    width: 120px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .title {
+    font-size: 4.5em;
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 90px;
+  }
+
+  .headerLabel {
+    font-size: 18px;
+    padding: 20px 40px 20px 20px;
+    margin-bottom: 240px;
+  }
+
+  .logo {
+    width: 150px;
+  }
+
+  .missionHeading {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header {
+    padding: 100px 120px 90px;
+  }
+
+  .title {
+    font-size: 5.5em;
+  }
+
+  .headerLabel {
+    width: 80%;
+    font-size: 26px;
+    padding: 20px 90px 20px 20px;
+    margin-bottom: 220px;
+  }
+
+  .logo {
+    width: 200px;
+  }
+
+  .missionHeading {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .header {
+    padding-left: 240px;
+    padding-right: 240px;
+  }
+}
