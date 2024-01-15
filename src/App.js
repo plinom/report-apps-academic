@@ -5,7 +5,7 @@ import { Route, Routes } from 'react-router-dom'
 
 import Footer from './components/Footer'
 import ScrollUpBtn from './components/ScrollUpBtn/ScrollUpBtn'
-import Changes from './pages/Changes/Changes'
+import { Changes } from './pages/Changes/Changes'
 import EducationalProjectsPage from './pages/EducationalProjectsPage'
 import GraduatesPage from './pages/GraduatesPage'
 import AdmissionCampaignResPage from './pages/IntroCampaignResPage/IntroCampaignResPage'
