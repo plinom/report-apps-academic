@@ -27,12 +27,10 @@ const Partners = () => {
         <ul className={styles.partnersWrapper}>
           <img className={styles.strategyPartners} src={images.strategical} alt="Strategical partners" />
         </ul>
-
         <h3 className={styles.partnersHeading}>{t('partners.sponsoredResearchAgreement')}</h3>
         <ul className={styles.partnersWrapper}>
           <img className={styles.sponsoredPartner} src={images.sponsoredResearch} alt="Sponsored research" />
         </ul>
-
         <h3 className={styles.partnersHeading}>{t('partners.partners')}</h3>
         <img src={images.partners} alt="Partners logos" />
       </Container>
