@@ -12,7 +12,6 @@ import { FreeMode } from 'swiper/modules'
 
 const MenuBar = () => {
 	const [t] = useTranslation()
-	console.log(t('menu'))
 	return (
 		<section>
 			<Swiper

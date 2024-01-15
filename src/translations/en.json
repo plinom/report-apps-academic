@@ -1,4 +1,12 @@
 {
+	"changesPage": {
+		"imageContent": "The academic year 2022-2023 became a year of significant changes in the management team of the faculty. Firstly, the founding dean of the faculty, Yaroslav Prytula, became the first vice-rector of UCU, and Oles Dobosevych was elected as the acting dean. More about the new dean can be read here.",
+		"imageContent2": "This spring, the faculty announced the opening of a doctoral program in intelligent systems, led by Professor Vadim Ermolayev. Mr. Vadim has been collaborating with UCU since 2016.",
+		"imageContent3": "Rostyslav Hryniv has taken charge of the Machine Learning Laboratory at UCU and will also coordinate cooperation with ELLIS.",
+		"imageContent4": "The new head of the Master's program in 'Data Science' is Ruslan Partsey. Ruslan is a graduate of the Data Science program at UCU in 2021. From 2021 to 2023, he was the program manager, assistant to Oleksii Molchanovskyi. Now, Oleksii holds the position of Head of the Innovation Office at UCU.",
+		"imageContent5": "Starting from the Fall semester, the Bachelor's program in 'Computer Science' is headed by Tetiana Zakharchenko. Tetiana also teaches the 'Fundamentals of Programming' course for our freshmen and has dedicated much of her life to the effectiveness of education, having worked extensively with standardized tests (EIT, SAT, GMAT, GRE, etc.).",
+		"imageContent6": "Roksolana Haviuk has become the deputy dean for administrative matters. For the past few years, Roksolana has been the business administrator of the faculty and has also been involved in teaching elective courses."
+	},
 	"menu": {
 		"item0": {
 			"name": "Who are we?",
