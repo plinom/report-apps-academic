@@ -1,4 +1,91 @@
 {
+  "scienceContent": {
+    "scienceContent1": {
+      "1": "Continuing to advance the new standard of IT education in Ukraine, APPS UCU has launched its doctoral program. It focuses on research directions in the fields of artificial intelligence, data science, data and knowledge engineering, data analytics, embedded systems, robotics, and more. The program is headed by Professor **[Vadim Ermolayev](https://www.linkedin.com/in/vadim-ermolayev/)**., who has been collaborating with the university since 2016.",
+      "2": "In August 2023, the first intake for the program took place, with seven doctoral candidates participating.",
+      "url": {
+        "content": "https://ucu.edu.ua/news/fakultet-prykladnyh-nauk-uku-vidkryvaye-doktorsku-programu-z-intelektualnyh-system/",
+        "preview": "More about program"
+      }
+    },
+    "scienceContent2": {
+      "1": "The UCU Machine Learning Lab has been accepted as an associate member of the ELLIS.",
+      "2": "ELLIS stands as a pan-European network comprising research centers specializing in information technology. It's dedicated to advancing fundamental science, fostering technical innovation, and driving societal impact. The overarching mission is to bridge the gap between European scientific advancements and those in the United States and China.",
+      "3": "Attaining associate member status offers us the chance to engage in all ELLIS programs and projects, paving the way to establish a comprehensive ELLIS center in the future.",
+      "url": {
+        "content": "https://www.facebook.com/csatucu/posts/pfbid02WfZgR5Ggr2sCUWbuhg6ZkLFKEwxU6t5jDBc3hHkrA7ujrNDFbAcsVTsL1Taho3Pgl",
+        "preview": "More"
+      }
+    },
+    "scienceContent3": {
+      "1": "This summer, the Faculty of Applied Sciences, in collaboration with the Simons Foundation and the U.S. National Academy of Sciences, successfully organized an extensive Summer School on Data Science.",
+      "2": "The school was designed for more experienced researchers, and out of over 120 applications, 50 participants with diverse backgrounds were selected – from astrophysicists and biologists to machine learning specialists and more.",
+      "3": "The instructors and mentors at the school included renowned American and Ukrainian experts. David Spergel, a member of the U.S. National Academy of Sciences, President of the Simons Foundation, and co-founder of the Center for Computational Astrophysics at the Flatiron Institute, shared his experience and knowledge. ",
+      "4": "Throughout the week, David Spergel and his colleagues delivered lectures on various topics, from statistical methods and machine learning in cosmology to data models for embryonic development and research commercialization. The school also featured panel discussions, sectional meetings, and mentoring opportunities.",
+      "url": {
+        "content": "https://www.facebook.com/csatucu/videos/3552876505041152/",
+        "preview": "More"
+      }
+    },
+    "scienceContent4": {
+      "1": "[Taras Rumezhak](https://www.linkedin.com/in/trumezhak/?originalSubdomain=ua), a graduate of the faculty, presented his research at the WACV 2023 conference. The co-authors of the paper also include researchers from the University of Oxford, where Taras is currently studying, with the support of SoftServe.",
+      "2": "The paper is dedicated to the topic of defense against adversarial attacks.",
+      "url": {
+        "content": "https://surl.li/esumb",
+        "preview": "Read the paper"
+      }
+    },
+    "scienceContent5": {
+      "1": "The UCU Machine Learning Lab team, together with experts from SoftServe, presented their research at CVWW23.",
+      "2": "The paper proposes an approach to filling in damages in 3D objects.",
+      "url": {
+        "content": "https://ceur-ws.org/Vol-3349/paper7.pdf?fbclid=IwAR1n-AqvusW42KdnG3d5JXbsrd8Md3NZxXJujOm6n0ghUe1QX6kLdI92pn8",
+        "preview": "Read the paper"
+      }
+    },
+    "scienceContent6": {
+      "1": "The research evaluates the impact of corpus size, specific models, and hyperparameter sets on the quality of fasttext word vector representations for the Ukrainian language, which has complex morphology and belongs to low-resource languages.",
+      "url": {
+        "content": "https://aclanthology.org/2023.unlp-1.3/?fbclid=IwAR1OwE3j3eclS8dxDDrxmepqfOdLDFfwDnWVFA4AUANqztPdjnju5IIcCHA",
+        "preview": "Read the paper"
+      }
+    },
+    "scienceContent7": {
+      "1": "The article proposes a new approach to the task of Word Sense Disambiguation in the Ukrainian language, based on fine-tuning a pre-trained large language model and a dataset to obtain better contextual embeddings for words with multiple meanings.",
+      "url": {
+        "content": "https://aclanthology.org/2023.unlp-1.2/?fbclid=IwAR0pvEACJsx6gnbhoqKykIF4sR-MRh1cggrWXLLfanCwwNIjxQxKBOFtMqc",
+        "preview": "Read the paper"
+      }
+    },
+    "scienceContent8": {
+      "1": "The conference took place in Boston, where our student Alina Mulyak presented a poster, which is part of a joint project between SoftServe and the Machine Learning Lab at UCU.",
+      "2": "The research involves measuring various basic biological characteristics of a person: heart rate, respiratory rate, SpO2, and more. The article focused on improving the accuracy of the state-of-the-art pixel intensity changes method for respiratory rate detection from video analysis (using a smartphone or laptop)."
+    },
+    "scienceContent9": {
+      "1": "The research of our student Pavlo Hilei has been accepted to the leading conference in the field of computer engineering ICASSP 2024, which will be held in Seoul (Republic of Korea) in April 2024.",
+      "2": "While working on his graduation project, Pavlo, under the guidance of Ievgen Korotkyi (KPI) and Oleg Farenyuk, developed an accelerator for the popular Open Source architecture of RISC-V processors, which allowed to speed up the computation of convolutional neural networks (CNN) by 144 times."
+    },
+    "scienceContent10": {
+      "1": "At the competition 'HomeRobot: Open Vocabulary Mobile Manipulation Challenge', the team consisting of Vladyslav Humennyi, Volodymyr Kuzma, and Ruslan Partsey managed to take bronze, competing with 21 teams from all over the world.",
+      "2": "The challenge was to develop agents capable of executing commands given in natural language. In their approach, the students used trained skills to solve tasks such as locating and moving objects. To execute a command, students sequentially called 3 trained skills (low level skills): finding an object in the environment (object navigation), picking up an object (pick), and putting down an object (place)."
+    }
+  },
+  "scienceMainTitles": {
+    "title1": "The main thing:",
+    "title2": "Scientific articles and conferences"
+  },
+  "scienceTitles": {
+    "title1": "Opening of the Doctoral Program in Intelligent Systems",
+    "title2": "APPS.UCU has been accepted to the European Laboratory for Learning and Intelligent Systems (ELLIS)",
+    "title3": "Lviv Data Science Summer School",
+    "title4": "Winter Conference on Applications of Computer Vision (WACV)",
+    "title5": "The UCU Machine Learning Lab team, together with experts from SoftServe, presented their research at CVWW23.",
+    "title6": "UNLP Workshop, conducted in collaboration with EACL 2023",
+    "title7": "UNLP Workshop, conducted in collaboration with EACL 2023",
+    "title8": "International Conference on Body Sensor Networks – Sensors and Systems for Digital Health",
+    "title9": "IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2024)",
+    "title10": "APPS.UCU team of teachers and students took 3rd place in the competition at the NeurIPS 2023 conference"
+  },
   "changesMains": {
     "chengeMain": "Changes in the management team of the faculty",
     "changeMain2": "Opening of the doctoral program in intelligent systems",

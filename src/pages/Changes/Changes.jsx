@@ -17,37 +17,49 @@ export const Changes = () => {
             <summary className={styles.summary}>
               {t('changesMains.chengeMain')}
             </summary>
-            <div class='px-4 pb-4'>{t('changesPage.imageContent')}</div>
+            <div className={styles.padding}>
+              {t('changesPage.imageContent')}
+            </div>
           </details>
           <details>
             <summary className={styles.summary}>
               {t('changesMains.changeMain2')}
             </summary>
-            <div class='px-4 pb-4'>{t('changesPage.imageContent2')}</div>
+            <div className={styles.padding}>
+              {t('changesPage.imageContent2')}
+            </div>
           </details>
           <details>
             <summary className={styles.summary}>
               {t('changesMains.changeMain3')}
             </summary>
-            <div class='px-4 pb-4'>{t('changesPage.imageContent3')}</div>
+            <div className={styles.padding}>
+              {t('changesPage.imageContent3')}
+            </div>
           </details>
           <details>
             <summary className={styles.summary}>
               {t('changesMains.chengeMain4')}
             </summary>
-            <div class='px-4 pb-4'>{t('changesPage.imageContent4')}</div>
+            <div className={styles.padding}>
+              {t('changesPage.imageContent4')}
+            </div>
           </details>
           <details>
             <summary className={styles.summary}>
               {t('changesMains.chengeMain5')}
             </summary>
-            <div class='px-4 pb-4'>{t('changesPage.imageContent5')}</div>
+            <div className={styles.padding}>
+              {t('changesPage.imageContent5')}
+            </div>
           </details>
           <details>
             <summary className={styles.summary}>
               {t('changesMains.chengeMain6')}
             </summary>
-            <div class='px-4 pb-4'>{t('changesPage.imageContent6')}</div>
+            <div className={styles.padding}>
+              {t('changesPage.imageContent6')}
+            </div>
           </details>
         </div>
       </ChangesWrapper>
