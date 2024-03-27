@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import styles from './MenuBar.module.css'
-import contentLinks from './links'
+import { contentLinks, nextLinks } from './links'
 
 import 'swiper/css'
 import 'swiper/css/free-mode'
@@ -19,9 +19,24 @@ const MenuBar = () => {
 				spaceBetween={30}
 				freeMode={true}
 				modules={[FreeMode]}
-				className={styles.swiper}
+				className={styles.swiper1}
 			>
 				{contentLinks.map(item => (
+					<SwiperSlide key={item.id} className={styles.sliderItem}>
+						<Link to={t(`menu.item${item.id}.link`)} className={styles.item}>
+							{t(`menu.item${item.id}.name`)}
+						</Link>
+					</SwiperSlide>
+				))}
+			</Swiper>
+			<Swiper
+				slidesPerView={3}
+				spaceBetween={30}
+				freeMode={true}
+				modules={[FreeMode]}
+				className={styles.swiper2}
+			>
+				{nextLinks.map(item => (
 					<SwiperSlide key={item.id} className={styles.sliderItem}>
 						<Link to={t(`menu.item${item.id}.link`)} className={styles.item}>
 							{t(`menu.item${item.id}.name`)}

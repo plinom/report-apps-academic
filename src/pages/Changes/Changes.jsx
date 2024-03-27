@@ -3,25 +3,54 @@ import AppBar from '../../components/AppBar/AppBar'
 import styles from './Changes.module.css'
 import { ChangesWrapper } from './ChangesWrapper'
 import { Image } from './Image'
-import { ImageContent } from './ImageContent'
 import imageChange from './imageChange'
 
 export const Changes = () => {
-	const [t] = useTranslation()
-	return (
-		<div className={styles.main}>
-			<AppBar />
-			<ChangesWrapper>
-				<Image path={imageChange} name='name' />
-				<div className={styles.textWrapper}>
-					<ImageContent content={t('changesPage.imageContent')} />
-					<ImageContent content={t('changesPage.imageContent2')} />
-					<ImageContent content={t('changesPage.imageContent3')} />
-					<ImageContent content={t('changesPage.imageContent4')} />
-					<ImageContent content={t('changesPage.imageContent5')} />
-					<ImageContent content={t('changesPage.imageContent6')} />
-				</div>
-			</ChangesWrapper>
-		</div>
-	)
+  const [t] = useTranslation()
+  return (
+    <div className={styles.main}>
+      <AppBar />
+      <ChangesWrapper>
+        <Image path={imageChange} name='name' />
+        <div className={styles.textWrapper}>
+          <details>
+            <summary className={styles.summary}>
+              {t('changesMains.chengeMain')}
+            </summary>
+            <div class='px-4 pb-4'>{t('changesPage.imageContent')}</div>
+          </details>
+          <details>
+            <summary className={styles.summary}>
+              {t('changesMains.changeMain2')}
+            </summary>
+            <div class='px-4 pb-4'>{t('changesPage.imageContent2')}</div>
+          </details>
+          <details>
+            <summary className={styles.summary}>
+              {t('changesMains.changeMain3')}
+            </summary>
+            <div class='px-4 pb-4'>{t('changesPage.imageContent3')}</div>
+          </details>
+          <details>
+            <summary className={styles.summary}>
+              {t('changesMains.chengeMain4')}
+            </summary>
+            <div class='px-4 pb-4'>{t('changesPage.imageContent4')}</div>
+          </details>
+          <details>
+            <summary className={styles.summary}>
+              {t('changesMains.chengeMain5')}
+            </summary>
+            <div class='px-4 pb-4'>{t('changesPage.imageContent5')}</div>
+          </details>
+          <details>
+            <summary className={styles.summary}>
+              {t('changesMains.chengeMain6')}
+            </summary>
+            <div class='px-4 pb-4'>{t('changesPage.imageContent6')}</div>
+          </details>
+        </div>
+      </ChangesWrapper>
+    </div>
+  )
 }
