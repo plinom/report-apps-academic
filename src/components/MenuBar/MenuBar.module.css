@@ -1,6 +1,9 @@
-.swiper {
+.swiper1, .swiper2 {
     width: 100%;
     height: 100%;
+}
+.swiper2 {
+    margin-top: 20px;
 }
 .sliderItem {
     text-align: center;

@@ -1,32 +1,42 @@
 .main {
-	background-repeat: no-repeat;
-	background-position: right 0 top 100px;
-	background-size: 90%;
-	background-image: url('../../imgs/gradient.svg');
-	min-height: 100vh;
-	min-width: 100%;
+  background-repeat: no-repeat;
+  background-position: right 0 top 100px;
+  background-size: 90%;
+  background-image: url('../../imgs/gradient.svg');
+  min-height: 100vh;
+  min-width: 100%;
 }
 
 .imageContent {
-	text-align: left;
-	max-width: 650px;
-	width: 100%;
-	margin-bottom: 10px;
-	padding-bottom: 10px;
-	border-bottom: 2px dashed #00ff00;
+  text-align: left;
+  max-width: 650px;
+  width: 100%;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px dashed #00ff00;
+}
+
+.textWrapper {
+  max-width: 700px;
+  width: 100%;
+}
+
+.summary {
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 
 .wrapper {
-	display: flex;
-	align-items: center;
-	gap: 10px;
-	justify-content: center;
-	padding-top: 100px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  padding-top: 100px;
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
-	.main {
-		background-size: 90%;
-		background-position: right 0 top 150px;
-	}
+  .main {
+    background-size: 90%;
+    background-position: right 0 top 150px;
+  }
 }

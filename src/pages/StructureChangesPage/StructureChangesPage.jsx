@@ -1,14 +1,14 @@
-import Zoom from 'react-medium-image-zoom';
-import { Trans, useTranslation } from 'react-i18next';
+import { Trans, useTranslation } from 'react-i18next'
+import Zoom from 'react-medium-image-zoom'
 
-import AppBar from '../../components/AppBar/AppBar';
-import Container from '../../components/Container';
-import { getLanguageImage } from '../../utils/services';
+import AppBar from '../../components/AppBar/AppBar'
+import Container from '../../components/Container'
+import { getLanguageImage } from '../../utils/services'
 
-import styles from './StructureChangesPage.module.css';
-import 'react-medium-image-zoom/dist/styles.css';
+import 'react-medium-image-zoom/dist/styles.css'
+import styles from './StructureChangesPage.module.css'
 
-import gradient from '../../imgs/gradient4.svg';
+import gradient from '../../imgs/gradient4.svg'
 
 
 const images = {
